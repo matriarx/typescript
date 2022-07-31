@@ -1,14 +1,14 @@
 name: ESLint
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
   schedule:
     - cron: '0 0 * * *'
 jobs:
   eslint:
-    name: Eslint Static Code Analysis
+    name: ESLint Static Code Analysis
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -22,7 +22,7 @@ jobs:
           npm install @microsoft/eslint-formatter-sarif@2.1.7
       - name: Lint
         run: npx eslint .
-          --config .eslintrc.js
+          --config .eslintrc
           --ext .js,.jsx,.ts,.tsx
           --format @microsoft/eslint-formatter-sarif 
           --output-file eslint-results.sarif
