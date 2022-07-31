@@ -7,8 +7,8 @@ on:
   schedule:
     - cron: '0 0 * * *'
 jobs:
-  eslint:
-    name: ESLint Static Code Analysis
+  lint:
+    name: Lint
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -27,7 +27,7 @@ jobs:
           --format @microsoft/eslint-formatter-sarif 
           --output-file eslint-results.sarif
         continue-on-error: true
-      - name: Results
+      - name: Finalize
         uses: github/codeql-action/upload-sarif@v2
         with:
           sarif_file: eslint-results.sarif
