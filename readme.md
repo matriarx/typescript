@@ -55,7 +55,7 @@ A TypeScript project template.
 - `git clone https://github.com/matriarx/typescript.git`
 - `mv typescript <project>`
 - `cd <project>`
-- `mv .env.example .env`
+- `cp .env.example .env`
 - `nvm use 18`
 - `yarn install`
 
