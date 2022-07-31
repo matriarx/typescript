@@ -34,6 +34,13 @@
     </a>
     <a href="https://github.com/matriarx/typescript/actions/workflows/codeql.yaml">
       <img src="https://github.com/matriarx/typescript/actions/workflows/codeql.yaml/badge.svg?branch=main&event=push" title="CodeQL" alt="CodeQL"/>
+    </a>
+    <a href="https://github.com/matriarx/typescript/actions/workflows/sonarcloud.yaml">
+      <img src="https://github.com/matriarx/typescript/actions/workflows/sonarcloud.yaml/badge.svg?branch=main&event=push" title="SonarCloud" alt="SonarCloud"/>
+    </a>
+    <a href="https://github.com/matriarx/typescript/actions/workflows/codacy.yaml">
+      <img src="https://github.com/matriarx/typescript/actions/workflows/codacy.yaml/badge.svg?branch=main&event=push" title="Codacy" alt="Codacy"/>
+    </a>
     <a href="https://github.com/matriarx/typescript/actions/workflows/eslint.yaml">
       <img src="https://github.com/matriarx/typescript/actions/workflows/eslint.yaml/badge.svg?branch=main&event=push" title="ESLint" alt="ESLint"/>
     </a>
