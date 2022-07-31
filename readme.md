@@ -1,9 +1,11 @@
 <div align="center">
   <p>
-    <a href="https://github.com/miamatriarx">
+    <a href="https://github.com/matriarx">
       <img src="https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy-downsized.gif" title="Fractal" alt="Fractal" width="280px">
     </a>
   </p>
+  
+  <h1>🏰 Matriarx 💕</h1>
 
   <p>
     <a href="https://t.me/miamatriarx">
@@ -20,6 +22,12 @@
     </a>
     <a href="https://www.reddit.com/r/matriarx">
       <img src="https://img.shields.io/badge/Reddit-ff4500?logo=reddit&logoColor=white" title="Reddit" alt="Reddit"/>
+    </a>
+  </p>
+
+  <p>
+    <a href="https://github.com/matriarx/typescript">
+      <img src="https://komarev.com/ghpvc/?username=miamatriarx&label=Views&style=flat&color=c04080" title="Views" alt="Views"/>
     </a>
   </p>
 
@@ -124,12 +132,6 @@ A special thank you to all the wonderful [authors](https://github.com/matriarx/t
 [MIT](https://github.com/matriarx/typescript/blob/main/license.md)
 
 ## 👩‍💻 Mia Matriarx 💕
-
-<p>
-  <a href="https://github.com/matriarx/typescript">
-    <img src="https://komarev.com/ghpvc/?username=miamatriarx&label=Views&style=flat&color=c04080" title="Views" alt="Views"/>
-  </a>
-</p>
 
 <p>
   <a href="https://github.com/miamatriarx">
