@@ -8,7 +8,7 @@ on:
     - cron: '0 0 * * *'
 jobs:
   analyze:
-    name: Analyze
+    name: CodeQL Analysis
     runs-on: ubuntu-latest
     permissions:
       actions: read
@@ -19,13 +19,13 @@ jobs:
       matrix:
         language: [ 'javascript' ]
     steps:
-    - name: Checkout repository
+    - name: Checkout
       uses: actions/checkout@v3
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
       with:
         languages: ${{ matrix.language }}
-    - name: Autobuild
+    - name: Build
       uses: github/codeql-action/autobuild@v2
-    - name: Perform CodeQL Analysis
+    - name: Analyze
       uses: github/codeql-action/analyze@v2
