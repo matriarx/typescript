@@ -30,7 +30,7 @@
       <img src="https://komarev.com/ghpvc/?username=miamatriarx&label=Views&style=flat&color=c04080" title="Views" alt="Views"/>
     </a>
     <a href="https://github.com/matriarx/typescript/actions/workflows/dependency-review.yaml">
-      <img src="https://github.com/matriarx/typescript/actions/workflows/dependency-review.yaml/badge.svg?event=push" title="Dependency Review" alt="Dependency Review"/>
+      <img src="https://github.com/matriarx/typescript/actions/workflows/dependency-review.yaml/badge.svg" title="Dependency Review" alt="Dependency Review"/>
     </a>
     <a href="https://github.com/matriarx/typescript/actions/workflows/codeql.yaml">
       <img src="https://github.com/matriarx/typescript/actions/workflows/codeql.yaml/badge.svg?branch=main&event=push" title="CodeQL" alt="CodeQL"/>
