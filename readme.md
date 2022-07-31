@@ -60,7 +60,7 @@ A TypeScript project template.
 - `yarn dev` - Watch mode to recompile on file changes
 - `yarn review` - Statically analyze codebase using `typescript`
 - `yarn lint` - Lint codebase using `eslint`
-- `yarn format` - Format codebase using `prettier`
+- `yarn style` - Style and format codebase using `prettier`
 - `yarn test` - Run tests using `jest`
 - `yarn qa` - Run review, linter, formatter and tests
 - `yarn compose` - Start a docker container for development
