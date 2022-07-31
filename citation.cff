@@ -3,7 +3,7 @@ message: "No citation is required in order to use this software, but it is appre
 authors:
   - family-names: "Matriarx"
     given-names: "Mia"
-title: "Matriarx Discussions"
+title: "Matriarx TypeScript"
 verion: "0.0.1"
 date-released: 2022-07-31
 url: "https://github.com/matriarx/typescript"
