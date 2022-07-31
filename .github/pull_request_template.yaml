@@ -19,10 +19,10 @@ Specify whether or not this update contains breaking changes and if so provide d
 ## Checklist
 
 - [ ] I have performed a self-review of my code and to the best of my knowledge everything should be working.
-- [ ] I have thoroughly tested my code and did quality assurance on my code, as well as writing new tests where necessary.
+- [ ] I have tested my code and did quality assurance, as well as writing new tests where necessary.
 - [ ] I have linted and formatted my code to be consistent with the existing codebase.
 - [ ] I have pulled the latest changes before submitting this request and carefully resolved any merge conflicts.
-- [ ] I have strictly followed the [contributing](https://github.com/matriarx/typescript/contributing.md) stipulations and my work contains a proper branch name and title and a linear commit history with properly named and formatted conventional commits.
+- [ ] I have followed the [contributing](https://github.com/matriarx/typescript/contributing.md) stipulations and my work contains a proper branch name and title and a linear commit history with properly named and formatted conventional commits.
 - [ ] I understand that this contribution will fall under the [MIT](https://github.com/matriarx/typescript/license.md) license and that I void all claims to any intellectual property or copyright.
 
 @miamatriarx
