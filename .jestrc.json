@@ -15,13 +15,13 @@
   "modulePathIgnorePatterns": [],
   "moduleFileExtensions": ["ts", "js"],
   "moduleNameMapper": {
-    "app/(.*)": "<rootDir>/src/$1",
-    "core/(.*)": "<rootDir>/src/core/$1",
-    "api/(.*)": "<rootDir>/src/api/$1",
-    "data/(.*)": "<rootDir>/src/data/$1",
-    "utils/(.*)": "<rootDir>/src/utils/$1",
-    "enums/(.*)": "<rootDir>/src/enums/$1",
-    "types/(.*)": "<rootDir>/src/types/$1"
+    "^app/(.*)": "<rootDir>/src/$1",
+    "^core/(.*)": "<rootDir>/src/core/$1",
+    "^api/(.*)": "<rootDir>/src/api/$1",
+    "^data/(.*)": "<rootDir>/src/data/$1",
+    "^utils/(.*)": "<rootDir>/src/utils/$1",
+    "^enums/(.*)": "<rootDir>/src/enums/$1",
+    "^types/(.*)": "<rootDir>/src/types/$1"
   },
   "transform": {
     ".ts$": ["@swc/jest"]

@@ -5,6 +5,7 @@
   "keywords": [
     "mia",
     "matriarx",
+    "template",
     "typescript"
   ],
   "author": {
@@ -38,14 +39,14 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "NODE_ENV=production node --es-module-specifier-resolution=node --no-warnings lib/index.js",
-    "compile": "NODE_ENV=production swc src -d lib --copy-files",
+    "compile": "NODE_ENV=production swc src -d lib --config-file .swcrc --copy-files",
     "build": "NODE_ENV=production yarn compile",
-    "dev": "swc src -d lib --copy-files -w",
+    "dev": "swc src -d lib --config-file .swcrc --copy-files -w",
     "review": "tsc --emitDeclarationOnly",
     "lint": "eslint --fix '{src,tests}/**/*.ts' --color --debug --no-error-on-unmatched-pattern",
-    "format": "prettier --write '{src,tests}/**/*.ts' --loglevel log --no-error-on-unmatched-pattern",
-    "test": "jest --colors --passWithNoTests",
-    "qa": "yarn review && yarn lint && yarn format && yarn test",
+    "style": "prettier --write '{src,tests}/**/*.ts' --loglevel log --no-error-on-unmatched-pattern",
+    "test": "jest --config .jestrc.json --colors --passWithNoTests",
+    "qa": "yarn review && yarn lint && yarn style && yarn test",
     "compose": "docker-compose up -d",
     "recompose": "docker-compose up --build --force-recreate -d",
     "release": "docker build -f dockerfile.release -t typescript --build-arg TAG=18-alpine --build-arg PORT=80 . --no-cache --force-rm --pull",
