@@ -8,7 +8,7 @@ on:
     - cron: '0 0 * * *'
 jobs:
   eslint:
-    name: Eslint Analysis
+    name: Eslint Static Code Analysis
     runs-on: ubuntu-latest
     permissions:
       contents: read
