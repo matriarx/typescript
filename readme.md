@@ -22,12 +22,6 @@
       <img src="https://img.shields.io/badge/Reddit-ff4500?logo=reddit&logoColor=white" title="Reddit" alt="Reddit"/>
     </a>
   </p>
-  
-  <p>
-    <a href="https://github.com/matriarx/typescript">
-      <img src="https://komarev.com/ghpvc/?username=miamatriarx&label=Views&style=flat&color=c04080" title="Views" alt="Views"/>
-    </a>
-  </p>
 
   <h1>TypeScript 💕</h1>
 
@@ -58,7 +52,7 @@ A TypeScript project template.
 - git
 - nvm
 - yarn
-- docker (optional)
+- docker
 
 ## Setup
 
@@ -130,6 +124,12 @@ A special thank you to all the wonderful [authors](https://github.com/matriarx/t
 [MIT](https://github.com/matriarx/typescript/blob/main/license.md)
 
 ## 👩‍💻 Mia Matriarx 💕
+
+<p>
+  <a href="https://github.com/matriarx/typescript">
+    <img src="https://komarev.com/ghpvc/?username=miamatriarx&label=Views&style=flat&color=c04080" title="Views" alt="Views"/>
+  </a>
+</p>
 
 <p>
   <a href="https://github.com/miamatriarx">
