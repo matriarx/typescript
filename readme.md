@@ -22,13 +22,16 @@
       <img src="https://img.shields.io/badge/Reddit-ff4500?logo=reddit&logoColor=white" title="Reddit" alt="Reddit"/>
     </a>
   </p>
-
-  <h1>TypeScript 💕</h1>
-
+  
   <p>
     <a href="https://github.com/matriarx/typescript">
       <img src="https://komarev.com/ghpvc/?username=miamatriarx&label=Views&style=flat&color=c04080" title="Views" alt="Views"/>
     </a>
+  </p>
+
+  <h1>TypeScript 💕</h1>
+
+  <p>
     <a href="https://github.com/matriarx/typescript/actions/workflows/dependency-review.yaml">
       <img src="https://github.com/matriarx/typescript/actions/workflows/dependency-review.yaml/badge.svg" title="Dependency Review" alt="Dependency Review"/>
     </a>
