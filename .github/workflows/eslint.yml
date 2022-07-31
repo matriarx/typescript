@@ -8,7 +8,7 @@ on:
     - cron: '0 0 * * *'
 jobs:
   eslint:
-    name: Eslint Analyze
+    name: Eslint Analysis
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -27,7 +27,7 @@ jobs:
           --format @microsoft/eslint-formatter-sarif 
           --output-file eslint-results.sarif
         continue-on-error: true
-      - name: Push results to GitHub
+      - name: Results
         uses: github/codeql-action/upload-sarif@v2
         with:
           sarif_file: eslint-results.sarif
