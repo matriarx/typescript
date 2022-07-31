@@ -34,6 +34,41 @@
 
 A TypeScript project template.
 
+## Requirements
+
+- git
+- nvm
+- yarn
+- docker (optional)
+
+## Setup
+
+- `git clone https://github.com/matriarx/typescript.git`
+- `mv typescript <project>`
+- `cd <project>`
+- `mv .env.example .env`
+- `nvm use 18`
+- `yarn install`
+
+> The `<project>` placeholder should be replaced with the name of your project.
+
+## Usage
+
+- `yarn start` - Run `lib/index.js`
+- `yarn compile` - Compile codebase using `@swc/core`
+- `yarn build` - Create a production build
+- `yarn dev` - Watch mode to recompile on file changes
+- `yarn review` - Statically analyze codebase using `typescript`
+- `yarn lint` - Lint codebase using `eslint`
+- `yarn format` - Format codebase using `prettier`
+- `yarn test` - Run tests using `jest`
+- `yarn qa` - Run review, linter, formatter and tests
+- `yarn compose` - Start a docker container for development
+- `yarn recompose` - Rebuild docker container
+- `yarn release` - Create a docker release image
+- `yarn deploy` - Start a docker container using the release image
+- `yarn prepare` - Automatically run on `yarn install` to add `husky` hooks to git for `lint-staged`
+
 ## 📚 Documentation 🔮
 
 ✔️ [Code of Conduct](https://github.com/matriarx/typescript/blob/main/code_of_conduct.md)\

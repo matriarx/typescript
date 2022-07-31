@@ -7,3 +7,19 @@ Thumbs.db
 # ide
 *.swp
 *.save*
+.vscode
+.idea
+
+# yarn
+node_modules
+package-lock.json
+
+# build
+/lib
+/types
+/coverage
+/cache
+
+# other
+.env
+*.log
