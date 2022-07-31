@@ -23,6 +23,8 @@
     </a>
   </p>
 
+  <h1>TypeScript 💕</h1>
+
   <p>
     <a href="https://github.com/matriarx/typescript">
       <img src="https://komarev.com/ghpvc/?username=miamatriarx&label=Views&style=flat&color=c04080" title="Views" alt="Views"/>
@@ -37,8 +39,6 @@
     </a>
     </a>
   </p>
-
-  <h1>TypeScript 💕</h1>
 </div>
 
 A TypeScript project template.
