@@ -8,19 +8,19 @@ on:
     - cron: '0 0 * * *'
 jobs:
   eslint:
-    name: Run eslint scanning
+    name: Eslint Analyze
     runs-on: ubuntu-latest
     permissions:
       contents: read
       security-events: write
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v3
-      - name: Install ESLint
+      - name: Install
         run: |
           npm install eslint@8.10.0
           npm install @microsoft/eslint-formatter-sarif@2.1.7
-      - name: Run ESLint
+      - name: Lint
         run: npx eslint .
           --config .eslintrc.js
           --ext .js,.jsx,.ts,.tsx
