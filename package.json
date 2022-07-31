@@ -5,8 +5,14 @@
   "keywords": [
     "mia",
     "matriarx",
-    "template",
-    "typescript"
+    "typescript",
+    "swc",
+    "eslint",
+    "prettier",
+    "jest",
+    "lint-staged",
+    "husky",
+    "docker"
   ],
   "author": {
     "name": "Mia Matriarx",
