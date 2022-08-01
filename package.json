@@ -64,7 +64,7 @@
   },
   "dependencies": {
     "@swc/cli": "^0.1.57",
-    "@swc/core": "^1.2.204",
+    "@swc/core": "^1.2.222",
     "dotenv": "^16.0.1"
   },
   "devDependencies": {
